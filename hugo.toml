@@ -1,0 +1,74 @@
+baseURL = "https://yirgacheffe93.github.io/"
+languageCode = "en-us"
+title = "Yirgacheffe"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[params]
+  env = "production"
+  title = "Yirgacheffe"
+  description = "Notes on LLMs, Agents, Training and Engineering"
+  author = "Yirgacheffe"
+
+  defaultTheme = "auto"
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.profileMode]
+  enabled = true
+  title = "Yirgacheffe"
+  subtitle = "LLM · Agent · NLP · Open Source"
+  imageUrl = "/images/avatar.png"
+  imageTitle = "Yirgacheffe"
+  imageWidth = 160
+  imageHeight = 160
+
+[[params.profileMode.buttons]]
+  name = "Blog"
+  url = "/posts/"
+
+[[params.profileMode.buttons]]
+  name = "Projects"
+  url = "/projects/"
+
+[[params.profileMode.buttons]]
+  name = "About"
+  url = "/about/"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/yirgacheffe93"
+
+[[params.socialIcons]]
+  name = "huggingface"
+  url = "https://huggingface.co/"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 40
